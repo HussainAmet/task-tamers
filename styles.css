@@ -1,0 +1,146 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.product-card p {
+    margin: 10px 0;
+}
+
+.about-section h1, .about-section h2 {
+    color: #333;
+}
+
+.about-section p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact-section h1, .contact-section h2 {
+    color: #333;
+}
+
+.contact-section p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section form label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.contact-section form input, .contact-section form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-section form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-section form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
